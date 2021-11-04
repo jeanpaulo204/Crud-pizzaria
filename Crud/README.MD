@@ -16,9 +16,9 @@ podendo editar , atualizar ou excluir.
 
 as quatro interface do protótipo para o trabalho how da univali.
 
-<img src="images/cliente.png" />
 
-<img src="images/endereço.png" />
+
+<img src="images/endereço..png" />
 
 <img src="images/pizza.png" />
 
