@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title>Crud</title>
+    <link type="text/css" rel="stylesheet" href="style.css"
+</head>
+
+<body>
+
+<header>
+    <div id="titulo">
+        <h1>Cliente</h1>
+    </div>
+</header>
+
+
+
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onenviar()" >
+                    <div>
+                        <label for="nome">Nome </label>
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                    <div>
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenome" id="sobrenome">
+                    </div>
+                    <div>
+                        <label for="cpf">CPF</label>
+                        <input type="text" name="cpf" id="cpf">
+                    </div>
+
+                    <div>
+                        <label for="telefone">Telefone</label>
+                        <input type="phone" name="telefone" id="telefone">
+                    </div>
+
+     
+                    <div class="form_action--button">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Deletar">
+                    </div>
+
+                </form>
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Nome </th>
+                                <th>SobreNome</th>
+                                <th>Cpf</th>
+                                <th>telefone</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+            
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+            </tr>
+                
+    </table>
+
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
